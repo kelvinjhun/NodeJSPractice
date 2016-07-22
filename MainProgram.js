@@ -4,7 +4,9 @@ Required framework module
 //var requiredModules = require('./RequiredModules');
 //var callBacks = require('./CallbackConcept');
 //var eventLoops = require('./EventLoop');
-var eventEmitter = require('./EventEmitter');
+//var eventEmitter = require('./EventEmitter');
+//var buffers = require('./Buffers');
+var streams = require('./Streams');
 var http = require ("http");
 
 http.createServer(function(request, response)
